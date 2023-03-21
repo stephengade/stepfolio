@@ -1,17 +1,24 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomePage from "./src/components/HomePage.vue"
+import { createWebHistory, createWebHashHistory, createRouter } from "vue-router"
+import HomePage from "./src/AppHome.vue"
+import  MyResume  from './src/components/MyResume.vue';
 
-const routes = [
-    {
-      path: '/',
-      component: HomePage,
-      name: "Home"
-    },
-  ]
+const links = [
+  {
+    path: "/",
+    name: "Home",
+    component: HomePage,
+  },
 
- const router = createRouter({
-    history: createWebHistory(),
-    routes
-  })
-  
-  export default router
+  {
+    path: "/cv",
+    name: "Resume",
+    component: MyResume,
+  },
+]
+
+const router = createRouter({
+  history: createWebHistory() || createWebHashHistory(),
+  routes: links,
+})
+
+export default router
