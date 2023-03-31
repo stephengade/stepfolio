@@ -3,7 +3,7 @@
 
     <h3 class="text-right text-myWhite font-jos mt-12"><span class="animate-ping animation-duration-3000">👋</span>Hi there, I'm Stephen,</h3>
 
-  <h2 class="text-white text-[35px] mt-3 md:ml-[20%] md:text-[80px] font-[400] md:font-[700] leading-[110%] text-right font-syne">
+  <h2 class="text-white hero-title text-[35px] mt-3 md:ml-[20%] md:text-[80px] font-[400] md:font-[700] leading-[110%] text-right font-syne">
     Frontend Engineer,<br/> available to work <br /> globally.
   </h2>
 

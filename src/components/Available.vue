@@ -1,12 +1,12 @@
 <template>
   <div class="h-full mt-[4rem] md:mt-[8rem]" id="available">
-    <h2 class="text-white text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
+    <h2 class="text-white hero-title text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
      I'm really good at
   </h2>
 
     <div class="flex flex-col md:flex-row gap-10 my-[2rem]">
          <div v-for="item, index in skills" :key="index">
-               <h2 class="text-white font-syne text-[20px] md:text-[40px]">{{ item.title }}</h2>
+               <h2 class="text-white  font-syne text-[20px] md:text-[40px]">{{ item.title }}</h2>
                <p class="text-myWhite font-jos text-base">{{ item.content }}</p>
 
                <div class="stacks mt-3">

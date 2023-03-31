@@ -1,10 +1,18 @@
 export const projectData = [
-    {
-      title: "Aeroseeds Africa",
-      link: "https://aeroseeds.io",
-      info: "A website for an NGO startup automating reforestation using UAV technologies",
-      stacks: "NextJs, Tailwindcss, GSAP"
-    },
+
+  {
+    title: "Openwaver",
+    link: "https://openwaver.vercel.app",
+    info: "A website for Web3 consulting startup building Web3 products",
+    stacks: "NextJs, Tailwindcss, GraphQL"
+  },
+
+  {
+    title: "Exx (Clone)",
+    link: "https://exx-web3.vercel.app/",
+    info: "Start building apps with useful cases with Exx Network",
+    stacks: "Next.js, Web3.js, Typescript"
+  },
 
     {
       title: "Homesilo",
@@ -32,10 +40,5 @@ export const projectData = [
       stacks: "Reactjs, Styled component"
     },
 
-    {
-      title: "Exx (Clone)",
-      link: "https://exx-web3.vercel.app/",
-      info: "Start building apps with useful cases with Exx Network",
-      stacks: "Next.js, Web3.js, Typescript"
-    },
+   
 ]

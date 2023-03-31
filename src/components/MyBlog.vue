@@ -1,6 +1,6 @@
 <template>
     <div class="h-full w-full md:w-[100vw] mt-[4rem] md:mt-[8rem]">
-      <h2 class="text-white text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">Recent Articles</h2>
+      <h2 class="text-white hero-title text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">Recent Articles</h2>
      
      
    
@@ -12,7 +12,7 @@
         </div>
     </div>
 
-    <div class="mt-12 flex justify-center">
+    <div class="mt-12 text-center">
      <PrimaryButton text="Check all articles" link="https://dev.to/stephengade" />
     </div>
 

@@ -1,6 +1,6 @@
 <template>
     <div class="h-full mt-[4rem] md:mt-[8rem]" id="contact">
-        <h2 class="text-white md:pr-[50%] text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
+        <h2 class="text-white hero-title md:pr-[50%] text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
             Ready to work together?
         </h2>
 
