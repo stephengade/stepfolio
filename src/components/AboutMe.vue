@@ -1,6 +1,6 @@
 <template>
     <div class="h-full mt-[8rem] relative" id="about">
-        <h2 class="text-white text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
+        <h2 class="text-white hero-title text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
            Who is Stephen?
         </h2>
 
