@@ -1,10 +1,17 @@
 export const projectData = [
 
   {
+    title: "Homesilo",
+    link: "https://homesilo.africa",
+    info: "A real estate marketplace that connects property owners and prospective occupants",
+    stacks: "NextJs, TypeScript, GraphQL"
+  },
+
+  {
     title: "Openwaver",
-    link: "https://openwaver.vercel.app",
+    link: "https://openwaver.com",
     info: "A website for Web3 consulting startup building Web3 products",
-    stacks: "NextJs, Tailwindcss, GraphQL"
+    stacks: "NextJs, Tailwindcss, Sanity.io"
   },
 
   {
@@ -14,12 +21,6 @@ export const projectData = [
     stacks: "Next.js, Web3.js, Typescript"
   },
 
-    {
-      title: "Homesilo",
-      link: "https://homesilo.africa",
-      info: "A real estate marketplace that connects property owners and prospective occupants",
-      stacks: "NextJs, TypeScript, GraphQL"
-    },
     {
       title: "Cargodealers",
       link: "https://frontend-omega-ebon.vercel.app/",

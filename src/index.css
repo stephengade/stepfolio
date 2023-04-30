@@ -12,3 +12,7 @@
 background-clip: text;
 text-fill-color: transparent;
 }
+
+p {
+  line-height: 140%;
+}
