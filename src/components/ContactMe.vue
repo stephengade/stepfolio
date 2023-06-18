@@ -1,5 +1,5 @@
 <template>
-    <div class="h-full mt-[4rem] md:mt-[8rem]" id="contact">
+    <div class="h-full relative mt-[4rem] md:mt-[8rem] section" id="contact">
         <h2 class="text-white hero-title md:pr-[50%] text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
             Ready to work together?
         </h2>
@@ -26,7 +26,7 @@
             </div>
         </div>
 
-
+        <img class="hidden h-[500px] rotate-peep md:block absolute z-10 right-0 -top-40 md:-mr-[5rem] xl:-mr-[10rem]" src="../assets/peeping.png" alt="" />
     </div>
 </template>
     
@@ -44,6 +44,11 @@ export default {
 }
 
 </script>
-    
+  
+<style>
+.rotate-peep {
+  transform: rotate(-60deg);
+}
+</style>
     
     

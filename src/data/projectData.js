@@ -21,6 +21,13 @@ export const projectData = [
     stacks: "Next.js, Web3.js, Typescript"
   },
 
+  {
+    title: "Haelo",
+    link: "http://haeloapp.vercel.app/",
+    info: "Reach out to influencers for information, business collaboration or just to say hi.",
+    stacks: "Reactjs, Styled component"
+  },
+
     {
       title: "Cargodealers",
       link: "https://frontend-omega-ebon.vercel.app/",
@@ -34,12 +41,7 @@ export const projectData = [
       info: "Ear1 helps you connect directly with your favourite influencers for a small fee.",
       stacks: "HTML, CSS, JavaScript"
     },
-    {
-      title: "Haelo",
-      link: "http://haeloapp.vercel.app/",
-      info: "Reach out to influencers for information, business collaboration or just to say hi.",
-      stacks: "Reactjs, Styled component"
-    },
+   
 
    
 ]

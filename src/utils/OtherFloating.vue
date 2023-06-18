@@ -11,13 +11,12 @@
   
   <script>
   export default {
-    name: 'FloatingBar',
+    name: 'OtherFloatingBar',
     data() {
       return {
         navLinks: [
-          { id: 0, link: "/about", text: "About" },
+          { id: 0, link: "/", text: "Home" },
           { id: 1, link: "#contact", text: "Contact" },
-          { id: 2, link: "#projects", text: "Projects" },
           { id: 3, link: "/cv", text: "Resume" },
         ],
       };
