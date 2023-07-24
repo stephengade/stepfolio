@@ -5,6 +5,10 @@ export const BrandData = [
     logo: require("../assets/openwaver.svg"),
   },
   {
+    title: "Ag",
+    logo: require("../assets/ag.png"),
+  },
+  {
     title: "Homesilo",
     logo: require("../assets/homesilo.svg"),
   },
@@ -19,10 +23,7 @@ export const BrandData = [
     logo: require("../assets/aeroseedLogo.svg"),
   },
 
-  {
-    title: "Ag",
-    logo: require("../assets/ag.png"),
-  },
+  
   {
     title: "Cargodealers",
     logo: require("../assets/cargoDealers.svg"),

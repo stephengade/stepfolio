@@ -1,7 +1,10 @@
 <template>
     <div class="h-full w-full md:w-[100vw] mt-[4rem] md:mt-[8rem] section">
-      <h2 class="text-white hero-title text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">Technical Articles</h2>
-        <p class="font-jos mb-10 text-myWhite my-3">Discover my recent articles and explore new ideas related to frontend development and software engineering</p>
+      <h2 class="text-white hero-title text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
+        <span class="md:title">Technical Articles</span>
+      </h2>
+        <p class="font-jos mb-10 text-myWhite my-3">
+          Discover my recent articles and explore new ideas related to frontend development and software engineering</p>
      
    
       <div class="w-full flex flex-col md:flex-row gap-10">

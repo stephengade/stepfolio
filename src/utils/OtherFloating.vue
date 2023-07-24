@@ -3,7 +3,7 @@
       <ul class="flex justify-center flex-row items-center gap-8">
         <li v-for="item in navLinks" :key="item.id" class='font-jos text-myDark cursor-pointer hover:opacity-60'>
             <a :href="item.link" v-if="item.link.startsWith('#') || item.link.startsWith('/#')" @click.prevent="scrollToSection(item.link)">{{ item.text }}</a>
-       <router-link v-else :to="item.link">{{ item.text }}</router-link>
+       <router-link @click="scrollToTop" v-else :to="item.link">{{ item.text }}</router-link>
         </li>
       </ul>
     </nav>
@@ -27,7 +27,12 @@
       const section = document.querySelector(link);
       section.scrollIntoView({ behavior: "smooth" });
     },  
+
+    scrollToTop() {
+        window.scrollTo(0,0);
+                    }
     },
+  
    
    
   };

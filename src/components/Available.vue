@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen relative mt-[4rem] md:mt-[8rem] section" id="available">
+  <div class="min-h-screen relative md:mt-[5rem] section" id="available">
     <h2 class="text-white hero-title text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
-      I'm really good at
+    <span class="md:title"> I'm really good at</span>
     </h2>
 
     <div class=" grid grid-cols-1 md:grid-cols-2 gap-10 my-[2rem]">

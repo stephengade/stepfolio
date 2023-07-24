@@ -7,12 +7,13 @@
   </div>
 
   <div class="mt-10 rounded-[32px]">
-    <iframe title="PDF" width="100%" height="700px" :src="`/pdfjs-3.4.120-dist/web/viewer.html?file=${documentUrl}&zoom=70`"></iframe>
+    <iframe title="PDF" width="100%" height="700px" :src="`/pdfjs-3.4.120-dist/web/viewer.html?file=${documentUrl}&zoom=125`"></iframe>
   </div>
 </section>
  <section class="bg-myDark px-5 py-12 md:px-[5rem] xl:px-[10rem]">
  <ContactMe />
   <MyFooter />
+  <OtherFloatingBar v-if="!isHomePage" />
 </section>
 </template>
 
@@ -21,15 +22,22 @@ import PrimaryButton from "@/utils/Button.vue"
 import Logo from "@/utils/Logo.vue";
 import ContactMe from "./ContactMe.vue";
 import MyFooter from "./MyFooter.vue";
+import OtherFloatingBar from "@/utils/OtherFloating.vue"
 
 export default {
   name: "MyResume",
-  components: {Logo, PrimaryButton, ContactMe, MyFooter},
+  components: {Logo, PrimaryButton, ContactMe, MyFooter, OtherFloatingBar},
  
   data() {
     return {
-      documentUrl: "/01_Stephengade_Frontend.pdf"
+      documentUrl: "/01_Stephen_Gbolagade_CV.3.pdf"
     }
-  }
+  },
+
+  computed: {
+    isHomePage() {
+      return window.location.pathname === "/";
+    },
+  },
 }
 </script>

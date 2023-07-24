@@ -1,7 +1,7 @@
 export const availableData = [
     {
       title: "Frontend Enginneering",
-      content: "With over 3 years experience, and passion for creating user-centric web experiences and a strong technical background in HTML, CSS, JavaScript, and popular frameworks such as React and VueJs, I bring a unique combination of technical expertise and design acumen to every project.",
+      content: "With over 4 years experience, and passion for creating user-centric web experiences and a strong technical background in HTML, CSS, JavaScript, and popular frameworks such as React and VueJs, I bring a unique combination of technical expertise and design acumen to every project.",
       stacks: [
         {item: "React.js"},
         {item: "Next.js"},
@@ -30,6 +30,7 @@ export const availableData = [
           {item: "Wix"},
           {item: "Content writing"},
           {item: "SEO"},
+          {item: "Social media ads"},
           {item: "Googling 😏"},
 
           ]

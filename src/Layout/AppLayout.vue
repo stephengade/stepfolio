@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-myDark w-full px-5 pb-12 md:px-[5rem] xl:px-[10rem] min-h-screen h-full">
+    <section class="bg-myDark w-full px-5 pb-12 md:px-[5rem] xl:px-[10rem] min-h-screen h-full overflow-x-hidden">
         <!-- The navbar -->
     <div class="flex justify-between items-center pt-6">
     <Logo />

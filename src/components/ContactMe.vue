@@ -1,7 +1,7 @@
 <template>
     <div class="h-full relative mt-[4rem] md:mt-[8rem] section" id="contact">
         <h2 class="text-white hero-title md:pr-[50%] text-[40px] md:text-[80px] md:font-[700] leading-[110%] font-syne">
-            Ready to work together?
+            <span class="md:title">Ready to work together</span>?
         </h2>
 
         <div class="flex flex-col md:flex-row gap-4 md:gap-[20%] mt-10">

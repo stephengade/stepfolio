@@ -1,13 +1,13 @@
 <template>
-  <div class="relative md:h-screen" id="home section " ref="Hero">
+  <div class="relative h-screen" id="home section " ref="Hero">
 
     <h3 class="text-right text-myWhite font-jos mt-[60px]">
       <span class="animate-ping animation-duration-3000">👋</span>Hi
       there, I'm Stephen,</h3>
 
     <h2
-      class="text-white hero-title text-[35px] mt-3 md:ml-[20%] md:text-[80px] font-[400] md:font-[700] leading-[105%] text-right font-syne">
-      Frontend <span class="title">Engineer</span>,<br /> <span class="highlight title">available to work </span> <br /> globally.
+      class="text-white hero-title text-[35px] mt-5 md:ml-[20%] md:text-[80px] font-[400] md:font-[700] leading-[105%] text-right font-syne">
+      a Frontend <span class="title">Engineer</span>,<br /> <span class="highlight title">available to work </span> <br /> globally.
     </h2>
 
     <p class="text-myWhite font-jos my-7 text-base md:text-[18px] leading-[24px] text-right md:pl-[40%]">
@@ -17,9 +17,12 @@
     </p>
 
 
-    <img class="hidden h-[500px] rotate-60 md:block absolute left-20 bottom-0 md:-ml-[20rem]" src="../../src/assets/heroVector.png" alt="" />
-
+    <img class="md:h-[500px] rotate-60 z-10 absolute left-10 md:left-20 md:bottom-0 -ml-[10rem] md:-ml-[20rem]" src="../../src/assets/heroVector.png" alt="" />
+   
+   
+    
   </div>
+
 
 
 </template>
@@ -34,6 +37,7 @@
 
 export default {
   name: "HomePage",
+ 
   mounted() {
     // spotlight
 
