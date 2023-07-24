@@ -30,7 +30,7 @@ export default {
  
   data() {
     return {
-      documentUrl: "/01_Stephen_Gbolagade_CV.3.pdf"
+      documentUrl: "/01_Stephen_Gbolagade_Frontend(CV)_01.pdf"
     }
   },
 
