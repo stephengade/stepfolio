@@ -1,12 +1,20 @@
 import { createWebHistory, createWebHashHistory, createRouter } from "vue-router"
-import HomePage from "./src/AppHome.vue"
-import  MyResume  from './src/components/MyResume.vue';
+import HomePage from "./src/views/AppHome.vue"
+import AboutMe from "./src/views/AboutPage.vue"
+import  MyResume  from '@/components/MyResume.vue';
+
 
 const links = [
   {
     path: "/",
     name: "Home",
     component: HomePage,
+  },
+
+  {
+    path: "/about",
+    name: "About",
+    component: AboutMe,
   },
 
   {

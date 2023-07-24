@@ -19,7 +19,8 @@ module.exports = {
     extend: {
       colors: {
         myDark: "#0E1012",
-        myWhite: "#CBC9E2",  
+        myWhite: "#CBC9E2", 
+        myPink: "#BD26CB"
       }
     },
   },

@@ -18,7 +18,7 @@
         <p class="left-8 py-1 px-3 border-b-2 border-solid border-myDark">{{ stacks }}</p>
     </div>
 
-    <PrimaryButton text="view demo" :link="link"/>
+    <PrimaryButton text="view live" :link="link"/>
   </div>
 
   
@@ -63,7 +63,7 @@ import PrimaryButton from "@/utils/Button.vue";
   transform-style: preserve-3d;
   backface-visibility: hidden;
   box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
-  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+  transition: transform 1s cubic-bezier(0.4,0.2,0.2,1);
 }
 .wrapper:hover > .front-face{
   transform: rotateY(-180deg);
