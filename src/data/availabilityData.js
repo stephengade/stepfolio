@@ -23,16 +23,17 @@ export const availableData = [
         content: "I have over 6 years of combined experience on a diverse skill set including low-code and no-code expertise such as talent-outsourcing, website design using content management systems (CMS) like WordPress, Search Engine Optimization (SEO), content writing and digital advertising, I offer a well-rounded and experienced approach to digital projects.",
         stacks: [
           {item: "WordPress"},
+          {item: "Shopify"},
+          {item: "Wix"},
           {item: "Figma"},
           {item: "Firebase"},
-          {item: "Shopify"},
-          {item: "Groove Funnel"},
-          {item: "Wix"},
+          {item: "Groove Funnel"},  
           {item: "Content writing"},
           {item: "SEO"},
-          {item: "Social media ads"},
-          {item: "Googling 😏"},
-
+          {item: "Digital marketing"},
+          {item: "Project mgmt"},
+          {item: "Critical thinking"},
+          {item: "Research"},
           ]
       }
 ]

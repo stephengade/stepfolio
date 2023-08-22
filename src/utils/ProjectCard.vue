@@ -2,8 +2,9 @@
 
   <div class="p-5 wrapper h-[300px] w-[95%] md:max-w-[300px]  mb-10 border-[1px] shadow-md cursor-pointer border-solid border-[#CBC9E2]" :id="projects">
     <!-- front -->
-    <div class="front-face card flex justify-center items-center">
+    <div class="front-face card flex flex-col justify-center items-center">
       <h2 class="title font-syne text-myDark text-[32px]">{{ title }}.</h2>
+      <p class="info font-jos mt-6 text-center text-base text-myDark">{{ subtitle }}.</p>
   </div>
 
   <!-- back -->
@@ -40,6 +41,7 @@ import PrimaryButton from "@/utils/Button.vue";
         info: {type: String, required: true},
         stacks: {type: String, required: true},
         link: {type: String, required: true},
+        subtitle:  {type: String, required: true}
      }
  }
 </script>
