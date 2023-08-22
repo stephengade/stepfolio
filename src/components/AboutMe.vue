@@ -27,8 +27,8 @@
 
                 <p class="text-myWhite font-jos my-5 text-base">
                     Besides product and software engineering, Stephen writes content about business and startups on his blog
-                    <a class="underline" target="_blank" href="https://gbolamedia.com">GbolaMedia</a>. He also write
-                    technical articles on <a href="https://dev.to/stephangade" target="_blank" class="underline">Dev.to
+                    <a class="underline" target="_blank" href="https://gbolamedia.com">GbolaMedia</a>. Talking about everything Android at <a class="underline" target="_blank" href="https://androidsy.com">Androidsy.com</a>, and writing
+                    technical articles at <a href="https://dev.to/stephangade" target="_blank" class="underline">Dev.to
                         community</a>
                 </p>
 
@@ -49,7 +49,7 @@
             </div>
 
             <div class="image w-2/2 md:w-1/2 hidden md:block">
-                <img src="../assets/stephen.png" alt="Stephen Gbolagade - Frontend engineer in Nigeria"
+                <img src="../assets/stephengade-face.jpg" alt="Stephen Gbolagade - Frontend engineer in Nigeria"
                     class="grayscale-100 cursor-pointer zoom-image hover:grayscale-0 w-[500px] -top-[40px] right-0 h-[500px] rounded-full absolute" />
             </div>
 

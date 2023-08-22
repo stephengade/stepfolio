@@ -16,8 +16,17 @@
 
     <div class="flex flex-col md:flex-row flex-wrap md:items-center gap-10 my-[2rem]">
       <div v-for="item, index in projects" :key="index" class="w-2/2 md:w-1/4">
-        <ProjectCard :title="item.title" :info="item.info" :stacks="item.stacks" :link="item.link" />
+        <ProjectCard :title="item.title" :subtitle="item.subtitle" :info="item.info" :stacks="item.stacks" :link="item.link" />
       </div>
+    </div>
+
+
+    <!-- other projects -->
+    <div class="other-projects mt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+         <p class="font-syne hero-title text-myWhite text-[32px] font-bold">Some other cool projects &rarr;</p>
+        <div v-for="project, key in FunProjectData" :key="key">
+          <a :href="project.link" target="_blank" referrer="noreferrer" :title="project.title" class="text-myWhite font-jos text-lg hover:text-xl transition-all border-b border-b-solid border-myPink">{{ project.title }} &nearr;</a>
+        </div>
     </div>
 
 
@@ -26,7 +35,7 @@
     
 <script>
 import ProjectCard from '@/utils/ProjectCard.vue';
-import { projectData } from '@/data/projectData';
+import { projectData, FunProjects } from '@/data/projectData';
 // import Brands from "@/components/MyBrands.vue"
 
 
@@ -35,7 +44,8 @@ export default {
   components: { ProjectCard },
   data() {
     return {
-      projects: projectData
+      projects: projectData,
+      FunProjectData: FunProjects
     }
   }
 }
