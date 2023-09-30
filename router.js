@@ -1,7 +1,7 @@
 import { createWebHistory, createWebHashHistory, createRouter } from "vue-router"
 import HomePage from "./src/views/AppHome.vue"
 import AboutMe from "./src/views/AboutPage.vue"
-import  MyResume  from '@/components/MyResume.vue';
+
 
 
 const links = [
@@ -17,11 +17,10 @@ const links = [
     component: AboutMe,
   },
 
-  {
-    path: "/cv",
-    name: "Resume",
-    component: MyResume,
-  },
+  // {
+  //     path: '/cv',
+  //     redirect: '/resume.pdf',
+  // },
 ]
 
 const router = createRouter({

@@ -22,12 +22,12 @@
 
 
     <!-- other projects -->
-    <div class="other-projects mt-6 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+    <!-- <div class="other-projects mt-6 flex flex-col gap-3 md:flex-row items-center md:justify-between">
          <p class="font-syne hero-title text-myWhite text-[32px] font-bold">Some other cool projects &rarr;</p>
         <div v-for="project, key in FunProjectData" :key="key">
           <a :href="project.link" target="_blank" referrer="noreferrer" :title="project.title" class="text-myWhite font-jos text-lg hover:text-xl transition-all border-b border-b-solid border-myPink">{{ project.title }} &nearr;</a>
         </div>
-    </div>
+    </div> -->
 
 
   </div>
