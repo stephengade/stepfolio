@@ -3,7 +3,13 @@
       <ul class="flex justify-center flex-row items-center gap-8">
         <li v-for="item in navLinks" :key="item.id" class='font-jos text-myDark cursor-pointer hover:opacity-60'>
             <a :href="item.link" v-if="item.link.startsWith('#') || item.link.startsWith('/#')" @click.prevent="scrollToSection(item.link)">{{ item.text }}</a>
-       <router-link @click="scrollToTop" v-else :to="item.link">{{ item.text }}</router-link>
+            <a
+          v-else
+          :href="item.link"
+          target="_blank"  
+          rel="noopener noreferrer"
+        >{{ item.text }}</a>
+            <!-- <router-link @click="scrollToTop" v-else :to="item.link">{{ item.text }}</router-link> -->
         </li>
       </ul>
     </nav>
@@ -18,7 +24,7 @@
           { id: 0, link: "/about", text: "About" },
           { id: 1, link: "#contact", text: "Contact" },
           { id: 2, link: "#projects", text: "Projects" },
-          { id: 3, link: "/cv", text: "Resume" },
+          { id: 3, link: "/resume.pdf", text: "Resume" },
         ],
       };
     },
