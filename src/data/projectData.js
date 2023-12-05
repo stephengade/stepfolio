@@ -2,7 +2,7 @@ export const projectData = [
   {
     title: "Homesilo",
     subtitle: "A rent management solution for Landlords and tenants in Africa",
-    link: "https://homesilo.africa",
+    link: "https://homesilo-africa.vercel.app",
     info: "Developed the entire frontend which include dashboards, payment logic, in-app chats etc., using Next.js, TypeScript, and GraphQL.",
     stacks: "Next.js, TypeScript, GraphQL"
   },
@@ -13,6 +13,14 @@ export const projectData = [
     info: "Contracted by a Web3 consulting startup to their website with native blogging system using Next.js, Tailwind CSS, and Sanity.io.",
     stacks: "Next.js, Tailwind CSS, Sanity.io"
   },
+  {
+    title: "AG Consulting",
+    subtitle: "Health and Communication Consulting Agency",
+    link: "https://agconsultingmedia.com/",
+    info: "Actively involved in Developing the website using WordPress and WpBakery Page builder, handled the eCommerce functionalities with Woocommerce",
+    stacks: "WordPress, WooCommerce, HTML & CSS, Groove Funnels"
+  },
+
   {
     title: "Aeroseeds Africa",
     subtitle: "A digital reforestation using UAV technology in africa",
@@ -45,12 +53,22 @@ export const projectData = [
   
 
 
-  // {
-  //   title: "Talkroom (Clone)",
-  //   link: "https://earone.netlify.app/",
-  //   info: "An application that enables direct communication with favorite influencers. Utilized HTML, CSS, JavaScript and GSAP.",
-  //   stacks: "HTML, CSS, JavaScript"
-  // }
+  {
+    title: "Talkroom (Clone)",
+    subtitle: "A platform that let's you Build direct, meaningful connections.",
+    link: "https://earone.netlify.app/",
+    info: "An application that enables direct communication with favorite influencers. Utilized HTML, CSS, JavaScript and GSAP.",
+    stacks: "HTML, CSS, JavaScript, GSAP"
+  },
+
+   
+  {
+    title: "Zuri-loki",
+    subtitle: "A landing page for an e-learning platform",
+    link: "https://zuri-loki.netlify.app/",
+    info: "A Zuri Internship task by team LOKI. I handled the frontend with HTML, CSS and JavaScript. The project was in top 10.",
+    stacks: "HTML, CSS, JavaScript, GSAP"
+  },
 ];
 
 export const FunProjects = [
